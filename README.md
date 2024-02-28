@@ -23,7 +23,7 @@ This project is a simple web page for hosting an iPad giveaway. The web page inc
 git clone https://github.com/your-username/ipad-giveaway.git
 ```
 
-2. Open the `giveaway.html` file in a web browser.
+2. Open the `index.html` file in a web browser.
 
 3. Customize the promotional text and social media links in the HTML file to suit your giveaway.
 
