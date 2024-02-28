@@ -32,7 +32,7 @@ function startCountdown() {
     // Function to print expiration date and time
 function printDeadlineDate(deadlineTime) {
     var deadlineElement = document.getElementById("deadline");
-    var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true };
+    var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric'};
     var deadlineDateTimeString = deadlineTime.toLocaleDateString(undefined, options);
     deadlineElement.innerText = "Expiration Date and Time: " + deadlineDateTimeString;
 }
