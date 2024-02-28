@@ -1,0 +1,87 @@
+body {
+    padding: 10px;
+    font-family: Montserrat;
+    background-color: rgba(255, 255, 255, 0.847);    
+}
+#header{
+    text-align: center;
+    margin: 0px auto 5px auto;
+}
+#content{
+    margin-top: -20px;
+}
+img{
+    float: left;
+    width: auto;
+    height: 370px;
+    margin: 0px 50px 20px 70px;
+}
+#text{
+    font-size: 13px;
+    font-weight: lighter;
+    margin: 5% 5% 1% 35%;
+}
+#socials{
+    margin: 10px 20px 0px 35%;
+    text-align: left;
+    font-size: large;
+}
+a{
+    padding: 3px;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+span :hover{
+    transform: translateY(-10px);
+    transition: transform 1s ease;
+}
+#timer{
+    margin: 10px auto 10px auto;
+    width: fit-content;
+}
+.clock{
+    display: inline-block;
+    background-color: rgb(91, 145, 189);
+    box-shadow: 0px 0px 10px rgb(67, 164, 205);
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: Raleway;
+    color: white;
+}
+.numbers{
+    margin: auto auto -20px auto;
+}
+#deadline{
+    font-weight: bolder;
+    text-align: center;
+}
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .numbers{
+        font-size: 50px;
+        margin-top: -5px;
+        margin-bottom: 10px;
+    }
+    #deadline{
+        font-size: x-small;
+        margin-top: -30px;
+    }
+    img{
+        float: none;
+        display: block;
+        height: 300px;
+        margin: 50px auto;
+    }
+    #text{
+        margin: 5% 5% 1% 5%;
+        font-size: x-small;
+    }
+}
