@@ -1,7 +1,7 @@
 // Define function to start the countdown
 function startCountdown() {
     var endTime = new Date();
-    endTime.setDate(endTime.getDate() + 5); // Set countdown duration to 1 minute
+    endTime.setDate(endTime.getDate() + 10); // Set countdown duration to 1 minute
 
     var timerInterval = setInterval(updateCountdown, 1000); // Update countdown every second
 
