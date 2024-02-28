@@ -1,7 +1,7 @@
 // Define function to start the countdown
 function startCountdown() {
     var endTime = new Date();
-    endTime.setDate(endTime.getDate() + 10); // Set countdown duration to 1 minute
+    endTime.setDate(endTime.getDate() + 10); // Set countdown duration to 10 days
 
     var timerInterval = setInterval(updateCountdown, 1000); // Update countdown every second
 
@@ -11,7 +11,7 @@ function startCountdown() {
 
         if (timeRemaining <= 0) {
             clearInterval(timerInterval); // Stop the countdown when time is up
-            // startCountdown(); // Restart the countdown
+            
         } else {
             var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
             var hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
