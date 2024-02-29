@@ -63,7 +63,7 @@ span :hover{
     text-align: center;
 }
 /* Media query for responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
     /* Adjust styles for smaller screens */
     .numbers{
         font-size: 50px;
