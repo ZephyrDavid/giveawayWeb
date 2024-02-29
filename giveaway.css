@@ -84,6 +84,12 @@ span :hover{
         margin: 5% 5% 1% 5%;
         font-size: x-small;
     }
+    #timer{
+        margin: 10px auto 40px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     #socials{
         margin: 40px 20px 0px 35%;
         width: 100px;
